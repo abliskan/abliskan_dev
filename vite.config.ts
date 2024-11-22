@@ -9,9 +9,8 @@ export default defineConfig({
   plugins: [
     vue(),
     vueDevTools(),
-    
   ],
-  base: '/vite-deploy-demo/',
+  base: '/abliskan_dev/',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
